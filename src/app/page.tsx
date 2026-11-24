@@ -19,8 +19,30 @@ export default function HomePage() {
     }
     <p className="text-2x1 text-blue-600 underline decoration-dashed ...">Cheetah riding a bike!</p>
     <p className= "font-mono ..."> Lorem Ipsum</p>
-    <Link href="/layer02">click me!</Link>
+    <Link href="/layer02"><button className="btn">click me!</button></Link>
     </div>
+    <div className="aura aura-rainbow">
+  <div className="card bg-base-100">
+    <div className="card-body">
+      <p>This card has aura</p>
+    </div>
+  </div>
+</div>
+<div className="hover-3d">
+  {/* content */}
+  <figure className="w-60 rounded-2xl">
+    <img src="https://jrhj4wz4ow.ufs.sh/f/5MM7H1ds6zxa0aik9yZyWtMi4gNaoUR836kvwnEdXcjLepH5" alt="Tailwind CSS 3D card" />
+  </figure>
+  {/* 8 empty divs needed for the 3D effect */}
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
     </main>
   );
 }
